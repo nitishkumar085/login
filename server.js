@@ -4,7 +4,7 @@ import dotenv from "dotenv"
 dotenv.config()
 
 
-const port = process.env.PORT || 8000
+const port = process.env.PORT || 8080
 
 const db_connection = process.env.DB_CONNECTION.replace("<password>",process.env.PASSWORD)
 
